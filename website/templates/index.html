@@ -1,0 +1,823 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url({% static "website/assets/img/slide/slide-1.jpg" %})">
+          <div class="container">
+            <h2>Welcome to <span>DentalCare</span></h2>
+            <p>Welcome to Dentalcare, where your journey to a healthier, brighter smile begins! Our dedicated team is committed to providing personalized and compassionate dental care to enhance your oral health.</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item " style="background-image: url({% static "website/assets/img/slide/slide-2.jpg" %} )">
+          <div class="container">
+            <h2>Welcome to Your Bright Smile Journey: Your Trusted Dental Partner</h2>
+              <p>Step into a world of exceptional dental care at Dentalcare. We are thrilled to welcome you to our modern and patient-centric practice, where your comfort and satisfaction are our top priorities."</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url({% static "website/assets/img/slide/slide-3.jpg" %} )">
+          <div class="container">
+            <h2>Opening the Door to Dental Wellness: Greetings Dentalcare.</h2>
+            <p>"Thank you for choosing Dentalcare for your dental needs. As you embark on your oral health journey with us, expect a warm and friendly atmosphere, coupled with state-of-the-art technology and a team of skilled professionals dedicated to your smile.</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+       
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="fas fa-heartbeat"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="fas fa-pills"></i></div>
+              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="fas fa-thermometer"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="fas fa-dna"></i></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>In an emergency? Need help now?</h3>
+          <p>To schedule an appointment on our dental website, simply navigate to the "Appointments" section, choose your preferred date and time, fill in your personal details, and click the "Submit" button to confirm your booking.</p>
+          <a class="cta-btn scrollto" href="appointment.html">Make an Make an Appointment</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>Welcome to DentalCare, where smiles come to life! At DentalCare, we believe in the power of a healthy and radiant smile to enhance not just your oral
+             well-being but your overall confidence and happiness. As your trusted dental partners, our mission is to provide compassionate and comprehensive dental care
+              that goes beyond treating teeth – we are dedicated to nurturing a positive and comfortable experience for every patient. Join us on a journey towards optimal oral health and a brighter, more confident smile at DentalCare.
+
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src={% static "website/assets/img/clinic1.jpeg" %}  class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Meet Our Expert Dental Team</h3>
+            <p class="fst-italic">
+              At Dentalcare, our dedicated team of dental professionals is committed to providing exceptiona
+              l care with a focus on your oral health and overall well-being.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i>Dr. Kayode Kayode, D.D.S. <br>
+
+                Education and Qualifications:
+                Dr. Kayode Kayode earned a Doctor of Dental Surgery (D.D.S.) degree from [Name of Dental School]. With over [X] years of experience in the field, Dr. [Dentist's Name] has
+                 a deep understanding of various dental procedures and treatments.</li>
+              <li><i class="bi bi-check-circle"></i>  Dr. QUREEB Kayode, D.D.S. <br>
+
+                Education and Qualifications:
+                Dr. QUREEB Kayode earned a Doctor of Dental Surgery (D.D.S.) degree from [Name of Dental School]. With over [X] years of experience in the field, Dr. [Dentist's Name] has
+                 a deep understanding of various dental procedures and treatments.</li>
+              <li><i class="bi bi-check-circle"></i>Dr. Yetunde Ojo, D.M.D.
+                <br>
+
+                Education and Qualifications:
+                Dr. Yetunde Ojo holds a Doctor of Dental Medicine (D.M.D.) degree from [Name of Dental School]. With a strong academic background, Dr. [Another Dentist's Name]
+                 brings a wealth of knowledge to our practice.</li>
+            </ul>
+            <p>
+              At Dentalcare, our entire team is dedicated to your oral health and strives to create a positive
+               and comfortable experience during your visits.
+               We look forward to serving you with the utmost professionalism and care.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fas fa-user-md"></i>
+              <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+
+              <p><strong>Doctors</strong> consequuntur quae qui deca rode</p>
+              <a href="#">Find out more &raquo;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="far fa-hospital"></i>
+              <span data-purecounter-start="0" data-purecounter-end="26" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Departments</strong> adipisci atque cum quia aut numquam delectus</p>
+              <a href="#">Find out more &raquo;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fas fa-flask"></i>
+              <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Research Lab</strong> aut commodi quaerat. Aliquam ratione</p>
+              <a href="#">Find out more &raquo;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fas fa-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Awards</strong> rerum asperiores dolor molestiae doloribu</p>
+              <a href="#">Find out more &raquo;</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+            <div class="icon-box mt-5 mt-lg-0">
+              <i class="bx bx-receipt"></i>
+              <h4>Est labore ad</h4>
+              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Harum esse qui</h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-images"></i>
+              <h4>Aut occaecati</h4>
+              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-shield"></i>
+              <h4>Beatae veritatis</h4>
+              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+            </div>
+          </div>
+          <div class="image col-lg-6 order-1 order-lg-2" style= 'background-image: url('{% static "website/assets/img/features.jpg" %}' );' data-aos="zoom-in"></div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Dental care services encompass a wide range of preventive, diagnostic, and treatment options to ensure the overall health of the oral cavity. Here are common services offered by dental care providers:</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon"><i class="fas fa-heartbeat"></i></div>
+            <h4 class="title"><a href="">Routine Dental Examinations:</a></h4>
+            <p class="description">
+              Regular check-ups for oral health assessments.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon"><i class="fas fa-pills"></i></div>
+            <h4 class="title"><a href="">Dental Cleanings:</a></h4>
+            <p class="description">Professional removal of plaque and tartar to prevent cavities and gum disease.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon"><i class="fas fa-hospital-user"></i></div>
+            <h4 class="title"><a href="">X-rays and Diagnostic Imaging:</a></h4>
+            <p class="description">Radiographic examinations for a detailed view of teeth and jaw structures.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon"><i class="fas fa-dna"></i></div>
+            <h4 class="title"><a href="">Preventive Services:</a></h4>
+            <p class="description">Application of fluoride treatments to strengthen teeth.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon"><i class="fas fa-wheelchair"></i></div>
+            <h4 class="title"><a href="">Restorative Dentistry</a></h4>
+            <p class="description">Fillings for cavities (using materials like composite, amalgam, or porcelain).</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon"><i class="fas fa-notes-medical"></i></div>
+            <h4 class="title"><a href="">Orthodontic Services</a></h4>
+            <p class="description">Braces or clear aligners to correct misaligned teeth or bite issues.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Appointment Section ======= -->
+    
+
+    <!-- ======= Departments Section ======= -->
+    <section id="departments" class="departments">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Departments</h2>
+          <p>Welcome to the [Department Name] Department at Dentalcare We are dedicated to delivering exceptional [focus area] services with a commitment to your oral health and well-being. Our team of experienced professionals is here to provide personalized care and comprehensive solutions to meet your unique dental needs.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                  <h4>General Dentistry</h4>
+                  <p>Provides routine check-ups, cleanings, and basic oral health care.</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                  <h4>Orthodontics</h4>
+                  <p>Focuses on the alignment of teeth and jaws.</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                  <h4>Endodontics</h4>
+                  <p>Specializes in the prevention, diagnosis, and treatment of gum diseases.</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                  <h4>Periodontics</h4>
+                  <p>Deals with the diagnosis and treatment of dental pulp and root canal issues.</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <h3>General Dentistry</h3>
+                <p class="fst-italic">General Dentistry serves as the foundation for comprehensive
+                   oral health care.</p>
+                <img src={% static "website/assets/img/departments-1.jpg" %}  alt="" class="img-fluid">
+                <p> addressing routine check-ups, preventive measures, and basic dental treatments. General dentists are primary dental care providers who diagnose and treat common dental issues, such as cavities, gum disease, and tooth decay. They perform regular cleanings, oral examinations, and provide guidance on proper oral hygiene practices. As the first line of defense in maintaining optimal oral health, general dentistry plays a crucial
+                  role in preventing more serious dental problems and promoting overall well-being.</p>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <h3>Orthodontics</h3>
+                <p class="fst-italic">Orthodontics is a specialized branch of dentistry that focuses on the diagnosis.
+                  </p>
+                <img src={% static "website/assets/img/departments-2.jpg" %}  alt="" class="img-fluid">
+                <p> prevention, and correction of misaligned teeth and jaws. Orthodontists use various techniques, including braces, aligners, and other appliances, to straighten teeth and improve the bite. Beyond the aesthetic benefits, orthodontic treatment plays a crucial role in enhancing overall oral health by addressing issues such as overcrowded teeth, jaw misalignments, and improper spacing. Orthodontists work closely with patients to create personalized treatment plans,
+                  fostering not only a more appealing smile but also optimal oral function.</p>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <h3>Endodontics</h3>
+                <p class="fst-italic">Endodontics is a dental specialty focused on the diagnosis and treatment
+                   of issues involving the dental pulp and tissues surrounding the tooth roots. </p>
+                <img src={% static "website/assets/img/departments-3.jpg" %} alt="" class="img-fluid">
+                <p>Root canal therapy, a common procedure in endodontics, is performed to address infections, alleviate pain, and preserve a tooth that might otherwise require extraction. Endodontists specialize in procedures aimed at 
+                  saving natural teeth and ensuring optimal oral health by treating conditions affecting the innermost structures of the tooth.</p>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <h3>Periodontics</h3>
+                <p class="fst-italic">Periodontics is a dental specialty focused on the prevention.
+                   </p>
+                <img src={% static "website/assets/img/departments-4.jpg" %} alt="" class="img-fluid">
+                <p>diagnosis, and treatment of diseases that affect the supporting structures of the teeth, particularly the gums and underlying bone. Periodontists address conditions such as gingivitis and periodontitis, offering treatments ranging from scaling and root planing to surgical procedures aimed at restoring and maintaining optimal periodontal health. By emphasizing the importance of gum health, periodontics plays 
+                  a crucial role in preserving overall oral well-being and preventing tooth loss.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Departments Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Here are some of the feed backs and testimonies from our patients</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  "I've been a patient at [Dental Practice Name] for years, and I couldn't be happier with the care I receive. The team is professional, friendly, and always makes me feel comfortable during my visits. I highly recommend their services!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src={% static "website/assets/img/testimonials/testimonials-1.jpg" %} class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Thanks to the amazing team at [Orthodontic Practice Name], I now have the smile I've always dreamed of. The orthodontists are experts in their field, and the entire process, from consultation to brace removal,
+                   was seamless. I'm beyond thrilled with the results!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src={% static "website/assets/img/testimonials/testimonials-2.jpg" %} class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  "I recently had dental implants done at [Dental Implant Center], and the experience was exceptional. The oral surgeon was skilled and caring, and the support staff made the entire process stress-free.
+                   My new implants look and feel fantastic!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src={% static "website/assets/img/testimonials/testimonials-3.jpg" %} class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Taking my child to [Pediatric Dental Practice] is always a positive experience. The staff is patient, understanding, and knows how to make dental visits enjoyable for kids.
+                   I appreciate the emphasis on preventive care and education for both parents and children.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src={% static "website/assets/img/testimonials/testimonials-4.jpg" %} class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Our family has been going to [Family Dental Care] for generations, and we couldn't be happier. The atmosphere is welcoming, and the dentists are great with both adults and kids. It's a one-stop destination for all our dental needs.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src={% static "website/assets/img/testimonials/testimonials-5.jpg" %} class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Doctors Section ======= -->
+    <section id="doctors" class="doctors section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Doctors</h2>
+          <p>At Dentalcare, we believe in smiles that radiate confidence and oral health that stands the test of time. As the dedicated dental team behind your care, we extend a warm welcome to our digital home.
+             Here, you'll discover the essence of our commitment to providing you with the highest quality dental care possible.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src={% static "website/assets/img/doctors/doctors-1.jpg" %} class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Medical Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src={% static "website/assets/img/doctors/doctors-2.jpg" %}  class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Anesthesiologist</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src={% static "website/assets/img/doctors/doctors-3.jpg" %}  class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>Cardiology</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src={% static "website/assets/img/doctors/doctors-4.jpg" %} class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Neurosurgeon</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Doctors Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>Welcome to Our Smile Gallery
+
+            At Dentalcare, we believe that a picture is worth a thousand words, especially when it comes to showcasing the transformative power of a healthy and beautiful smile.
+             Our Smile Gallery is a visual celebration of the success stories we've had the privilege of being a part of.</p>
+        </div>
+
+        <div class="gallery-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="gallery-lightbox" href={% static "website/assets/img/gallery/gallery-1.jpg" %}><img src={% static "website/assets/img/gallery/gallery-1.jpg" %} class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href={% static "website/assets/img/gallery/gallery-2.jpg" %}><img src={% static "website/assets/img/gallery/gallery-2.jpg" %} class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href={% static "website/assets/img/gallery/gallery-3.jpg" %}><img src={% static "website/assets/img/gallery/gallery-3.jpg" %} class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href={% static "website/assets/img/gallery/gallery-4.jpg" %}><img src={% static "website/assets/img/gallery/gallery-4.jpg" %} class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href={% static "website/assets/img/gallery/gallery-5.jpg" %}><img src={% static "website/assets/img/gallery/gallery-5.jpg" %} class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href={% static "website/assets/img/gallery/gallery-6.jpg" %}><img src={% static "website/assets/img/gallery/gallery-6.jpg" %} class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href={% static "website/assets/img/gallery/gallery-7.jpg" %}><img src={% static "website/assets/img/gallery/gallery-7.jpg" %} class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href={% static "website/assets/img/gallery/gallery-8.jpg" %}><img src={% static "website/assets/img/gallery/gallery-8.jpg" %} class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Pricing</h2>
+          <p>Welcome to Your Dentalcare - Your Partner in Oral Health!
+
+            At Dentalcare, we are committed to providing exceptional dental care tailored to your individual needs. We understand that transparency and clarity are essential when it comes to pricing.
+             Here's an overview of our pricing structure to help you make informed decisions about your oral health:</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+              <h3>Free</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li>Professional cleanings</li>
+                <li>Fluoride treatments (as needed)</li>
+                <li class="na">15% off additional dental services</li>
+                <li class="na">Two sets of bitewing X-rays per year</li>
+                <li class="na">10% off cosmetic procedures</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box featured" data-aos="fade-up" data-aos-delay="200">
+              <h3> Basic Membership</h3>
+              <h4><sup>$</sup>19<span> / month</span></h4>
+              <ul>
+                <li>Professional cleanings</li>
+                <li>Two sets of bitewing X-rays per year</li>
+                <li>Fluoride treatments (as needed)</li>
+                <li>15% off additional dental services</li>
+                <li class="na">10% off cosmetic procedures</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+              <h3> Premium Membership</h3>
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li>Professional cleanings</li>
+                <li>Two sets of bitewing X-rays per year</li>
+                <li>Fluoride treatments (as needed)</li>
+                <li>Priority scheduling for urgent appointments</li>
+                <li>10% off orthodontic treatments</li>
+                <li>15% off additional dental services</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+              <span class="advanced">Advanced</span>
+              <h3>Family Membership</h3>
+              <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li>Professional cleanings</li>
+                <li>Routine X-rays</li>
+                <li>Emergency care with priority scheduling</li>
+                <li>Discounts on additional dental services and cosmetic procedures</li>
+                <li>5% off the total membership cost for each additional family member beyond 4</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Frequently Asked Questioins Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questioins</h2>
+          <p>Navigating through the FAQ section can help you find quick solutions and insights into topics such as general dentistry, specialized treatments, appointment procedures, and more. Our commitment to patient education is reflected in these informative responses,
+             aiming to empower you with the knowledge needed for optimal oral health.</p>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1"> How often should I visit the dentist for a check-up? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                It is generally recommended to visit the dentist for a routine check-up and cleaning every six months. However,
+                 your dentist may suggest a different schedule based on your oral health needs.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Why is regular dental check-up important? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                 Regular dental check-ups help prevent and detect oral health issues early. They include professional cleanings, oral exams,
+                 and screenings for conditions like cavities, gum disease, and oral cancer. </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What can I do to maintain good oral hygiene at home? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                 Practice good oral hygiene by brushing your teeth twice a day, flossing daily, using mouthwash, and maintaining a balanced diet.
+                 Regular dental check-ups are also crucial for optimal oral health. </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Are X-rays necessary, and are they safe? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                 X-rays are valuable for detecting hidden dental issues. Modern dental X-rays emit minimal radiation,
+                 and dentists take precautions to ensure patient safety. </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question"> How can I prevent cavities? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                 To prevent cavities, brush your teeth regularly, floss daily, limit sugary snacks and beverages,
+                 and attend regular dental check-ups for professional cleanings and fluoride treatments.</p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question"> What should I do in a dental emergency? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                In a dental emergency, contact your dentist immediately. If you experience severe pain, swelling, or trauma,
+                 seek prompt dental care. For knocked-out teeth, try to place the tooth back in its socket or store it in milk and see a dentist immediately. </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questioins Section -->
+    
+
+    
+    
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        
+        <div class="section-title">
+
+          <h2>Contact</h2>
+          <p>Thank you for considering [Your Dental Practice Name] for your dental care needs. We're delighted that you're interested in reaching out to us. Your oral health is our priority, and we're here to assist you in any way we can.</p>
+        </div>
+
+      </div>
+
+      <div>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Our Address</h3>
+                  <p>Abdulkadir, N0.17 ilorin, Nigeria</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>qqureeb@gmail.com<br>bolasamuel.sb@gmail.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Us</h3>
+                  <p>+2 34 9057 606 075<br>+2 34 9075 191 507</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {% comment %} <div class="col-lg-6">
+            <form action="#"  method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="7" placeholder="Message" required=""></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div> {% endcomment %}
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+  {% endblock  %}
+  

@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Departments | {% endblock %}
+{% block content %}
+<!-- ======= Departments Section ======= -->
+<section id="departments" class="departments">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <br>
+      <br>
+      <br>
+      <h2>Departments</h2>
+      <p>Welcome to the [Department Name] Department at Dentalcare We are dedicated to delivering exceptional [focus area] services with a commitment to your oral health and well-being. Our team of experienced professionals is here to provide personalized care and comprehensive solutions to meet your unique dental needs.</p>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <ul class="nav nav-tabs flex-column">
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <h4>General Dentistry</h4>
+              <p>Provides routine check-ups, cleanings, and basic oral health care.</p>
+            </a>
+          </li>
+          <li class="nav-item mt-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <h4>Orthodontics</h4>
+              <p>Focuses on the alignment of teeth and jaws.</p>
+            </a>
+          </li>
+          <li class="nav-item mt-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <h4>Endodontics</h4>
+              <p>Specializes in the prevention, diagnosis, and treatment of gum diseases.</p>
+            </a>
+          </li>
+          <li class="nav-item mt-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <h4>Periodontics</h4>
+              <p>Deals with the diagnosis and treatment of dental pulp and root canal issues.</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-8">
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <h3>General Dentistry</h3>
+            <p class="fst-italic">General Dentistry serves as the foundation for comprehensive
+               oral health care.</p>
+            <img src={% static "website/assets/img/departments-1.jpg" %}  alt="" class="img-fluid">
+            <p> addressing routine check-ups, preventive measures, and basic dental treatments. General dentists are primary dental care providers who diagnose and treat common dental issues, such as cavities, gum disease, and tooth decay. They perform regular cleanings, oral examinations, and provide guidance on proper oral hygiene practices. As the first line of defense in maintaining optimal oral health, general dentistry plays a crucial
+              role in preventing more serious dental problems and promoting overall well-being.</p>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <h3>Orthodontics</h3>
+            <p class="fst-italic">Orthodontics is a specialized branch of dentistry that focuses on the diagnosis.
+              </p>
+            <img src={% static "website/assets/img/departments-2.jpg" %}  alt="" class="img-fluid">
+            <p> prevention, and correction of misaligned teeth and jaws. Orthodontists use various techniques, including braces, aligners, and other appliances, to straighten teeth and improve the bite. Beyond the aesthetic benefits, orthodontic treatment plays a crucial role in enhancing overall oral health by addressing issues such as overcrowded teeth, jaw misalignments, and improper spacing. Orthodontists work closely with patients to create personalized treatment plans,
+              fostering not only a more appealing smile but also optimal oral function.</p>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <h3>Endodontics</h3>
+            <p class="fst-italic">Endodontics is a dental specialty focused on the diagnosis and treatment
+               of issues involving the dental pulp and tissues surrounding the tooth roots. </p>
+            <img src={% static "website/assets/img/departments-3.jpg" %} alt="" class="img-fluid">
+            <p>Root canal therapy, a common procedure in endodontics, is performed to address infections, alleviate pain, and preserve a tooth that might otherwise require extraction. Endodontists specialize in procedures aimed at 
+              saving natural teeth and ensuring optimal oral health by treating conditions affecting the innermost structures of the tooth.</p>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <h3>Periodontics</h3>
+            <p class="fst-italic">Periodontics is a dental specialty focused on the prevention.
+               </p>
+            <img src={% static "website/assets/img/departments-4.jpg" %} alt="" class="img-fluid">
+            <p>diagnosis, and treatment of diseases that affect the supporting structures of the teeth, particularly the gums and underlying bone. Periodontists address conditions such as gingivitis and periodontitis, offering treatments ranging from scaling and root planing to surgical procedures aimed at restoring and maintaining optimal periodontal health. By emphasizing the importance of gum health, periodontics plays 
+              a crucial role in preserving overall oral well-being and preventing tooth loss.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Departments Section -->
+
+   <!-- ======= Testimonials Section ======= -->
+   <section id="testimonials" class="testimonials">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Testimonials</h2>
+        <p>Here are some of the feed backs and testimonies from our patients</p>
+      </div>
+
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                "I've been a patient at [Dental Practice Name] for years, and I couldn't be happier with the care I receive. The team is professional, friendly, and always makes me feel comfortable during my visits. I highly recommend their services!
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src={% static "website/assets/img/testimonials/testimonials-1.jpg" %} class="testimonial-img" alt="">
+              <h3>Saul Goodman</h3>
+              <h4>Ceo &amp; Founder</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Thanks to the amazing team at [Orthodontic Practice Name], I now have the smile I've always dreamed of. The orthodontists are experts in their field, and the entire process, from consultation to brace removal,
+                 was seamless. I'm beyond thrilled with the results!
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src={% static "website/assets/img/testimonials/testimonials-2.jpg" %} class="testimonial-img" alt="">
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                "I recently had dental implants done at [Dental Implant Center], and the experience was exceptional. The oral surgeon was skilled and caring, and the support staff made the entire process stress-free.
+                 My new implants look and feel fantastic!
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src={% static "website/assets/img/testimonials/testimonials-3.jpg" %} class="testimonial-img" alt="">
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Taking my child to [Pediatric Dental Practice] is always a positive experience. The staff is patient, understanding, and knows how to make dental visits enjoyable for kids.
+                 I appreciate the emphasis on preventive care and education for both parents and children.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src={% static "website/assets/img/testimonials/testimonials-4.jpg" %} class="testimonial-img" alt="">
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Our family has been going to [Family Dental Care] for generations, and we couldn't be happier. The atmosphere is welcoming, and the dentists are great with both adults and kids. It's a one-stop destination for all our dental needs.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src={% static "website/assets/img/testimonials/testimonials-5.jpg" %} class="testimonial-img" alt="">
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+  </section><!-- End Testimonials Section -->
+
+{% endblock %}
